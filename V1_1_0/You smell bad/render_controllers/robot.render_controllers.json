@@ -1,0 +1,13 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.sobs_robot": {
+      "geometry": "Geometry.default",
+      "part_visibility": [
+        { "rightItem": "query.has_target" }
+      ],
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "query.has_target ? Texture.active : Texture.default" ]
+    }
+  }
+}

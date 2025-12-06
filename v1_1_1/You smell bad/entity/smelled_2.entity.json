@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "sobs:smelled_2",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/smelled_2"
+      },
+      "geometry": {
+        "default": "geometry.smelled_2"
+      },
+      "animations": {
+		"idle": "animation.smelled_2.idle"
+      },
+      "scripts": {
+        "animate": ["idle"]
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "base_color": "#b9f721",
+        "overlay_color": "#0a8c39"
+      }
+    }
+  }
+}

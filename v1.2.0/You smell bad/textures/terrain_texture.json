@@ -1,0 +1,35 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"powder_maker": {
+			"textures": "textures/blocks/powder_maker.png"
+		},
+		"powder_maker_wet": {
+			"textures": "textures/blocks/powder_maker_wet.png"
+		},
+		"test_block": {
+			"textures": "textures/blocks/test_block"
+		},
+		"test_block_progress": {
+			"textures": "textures/blocks/test_block_progress"
+		},
+		"plastic_block": {
+			"textures": "textures/entity/plastic.png"
+		},
+		"plastic_block_2": {
+			"textures": "textures/entity/plastic_2.png"
+		},
+		"plastic_block_3": {
+			"textures": "textures/entity/plastic_3.png"
+		},
+		"plastic_block_4": {
+			"textures": "textures/entity/plastic_4.png"
+		},
+		"plastic_block_5": {
+			"textures": "textures/entity/plastic_5.png"
+		}
+	}
+}

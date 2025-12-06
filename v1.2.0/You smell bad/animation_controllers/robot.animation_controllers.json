@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.robot.look_at_target": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [{ "see_target": "query.has_target" }],
+          "animations": ["float"]
+        },
+        "see_target": {
+          "transitions": [{ "idle": "!query.has_target" }],
+          "animations": ["hold"]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "sobs:sand_entity",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/sand_entity"
+			},
+			"geometry": {
+				"default": "geometry.sand_entity"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#77990d",
+				"overlay_color": "#fbb73f"
+			}
+		}
+	}
+}

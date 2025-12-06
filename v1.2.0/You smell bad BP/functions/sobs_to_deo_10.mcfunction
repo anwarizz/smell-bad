@@ -1,0 +1,1 @@
+replaceitem entity @s slot.weapon.mainhand 1 sobs:deodorant_10 1 0

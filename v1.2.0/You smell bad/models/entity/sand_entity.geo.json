@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.sand_entity",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [-1, 0, 1],
+					"cubes": [
+						{"origin": [-6, 0, -6], "size": [12, 2.2, 12], "uv": [1, 0]}
+					]
+				}
+			]
+		}
+	]
+}

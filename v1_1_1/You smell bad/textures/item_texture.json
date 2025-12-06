@@ -1,0 +1,40 @@
+{
+	"texture_data": {
+		"deodorant": {
+			"textures": "textures/items/deo.png"
+		},
+		"deodorant_2": {
+			"textures": "textures/items/deo_2.png"
+		},
+		"deodorant_3": {
+			"textures": "textures/items/deo_3.png"
+		},
+		"deodorant_4": {
+			"textures": "textures/items/deo_4.png"
+		},
+		"deodorant_5": {
+			"textures": "textures/items/deo_5.png"
+		},
+		"plastic_item": {
+			"textures": "textures/items/plastic.png"
+		},
+		"plastic_dust": {
+			"textures": "textures/items/plastic_dust.png"
+		},
+		"plastic_sheet": {
+			"textures": "textures/items/plastic_sheet.png"
+		},
+		"sand_bucket": {
+			"textures": "textures/items/sand_bucket.png"
+		},
+		"sand_bucket_with_kelp": {
+			"textures": "textures/items/sand_bucket_with_kelp.png"
+		},
+		"minecraft_baking_powder": {
+			"textures": "textures/items/minecraft_baking_powder.png"
+		},
+		"robot_gun": {
+			"textures": "textures/items/robot_gun.png"
+		}
+	}
+}

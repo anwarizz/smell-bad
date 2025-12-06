@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "sobs:filtering_robot",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/sand_filter_robot",
+        "active": "textures/entity/sand_filter_robot_mutated"
+      },
+      "geometry": {
+        "default": "geometry.sand_filter_robot"
+      },
+      "animations": {
+        "look_at_target": "animation.common.look_at_target",
+        "float": "animation.sand_filter_robot.idle",
+        "hold": "animation.sand_filter_robot.hold",
+        "fire": "animation.sand_filter_robot.fire",
+        "fire_controller": "controller.animation.robot.look_at_target"
+      },
+      "scripts": {
+        "animate": ["look_at_target", "float", "fire_controller"]
+      },
+      "render_controllers": ["controller.render.sobs_robot"],
+      "spawn_egg": {
+        "base_color": "#77990d",
+        "overlay_color": "#fbb73f"
+      }
+    }
+  }
+}

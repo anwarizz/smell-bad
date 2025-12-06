@@ -1,0 +1,51 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sobs:plastic_grinder"
+    },
+
+    "tags": ["crafting_table"],
+    "pattern": ["abc", 
+                "def", 
+                "ghi"],
+    "key": {
+      "a": {
+        "item": "minecraft:iron_ingot"
+      },
+      "b": {
+        "item": "minecraft:dispenser"
+      },
+      "c": {
+        "item": "minecraft:iron_ingot"
+      },
+      "d": {
+        "item": "minecraft:iron_ingot"
+      },
+      "e": {
+        "item": "minecraft:stonecutter_block"
+      },
+      "f": {
+        "item": "minecraft:iron_ingot"
+      },
+      "g": {
+        "item": "minecraft:redstone_torch"
+      },
+      "h": {
+        "item": "minecraft:crafting_table"
+      },
+      "i": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:iron_block"
+      }
+    ],
+    "result": {
+      "item": "sobs:test_block",
+      "data": 0
+    }
+  }
+}

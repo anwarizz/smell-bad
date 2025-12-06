@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Smell Bad vs Robots",
+    "description": "You smell bad Behavior Pack",
+    "uuid": "46226245-871d-b618-e76c-e37ae379a709",
+    "version": [1, 1, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "metadata": {
+    "authors": ["Pakde"],
+    "generated_with": {
+      "blockbench_item_wizard": ["1.2.1"]
+    }
+  },
+  "modules": [
+    {
+      "description": "Behavior",
+      "version": [1, 1, 0],
+      "uuid": "6f5ab1c9-c93d-66eb-e381-7ed7b43bea83",
+      "type": "data"
+    },
+	{       
+      "type": "script",
+      "uuid": "366bd640-6715-47ba-a0ee-7cdffe96c768",
+      "version": [1, 1, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.19.0"
+    },
+    {
+      "uuid": "0215635b-bbb0-ab3b-9300-8e6d45ded1fc",
+      "version": [1, 1, 0]
+    }
+  ]
+}

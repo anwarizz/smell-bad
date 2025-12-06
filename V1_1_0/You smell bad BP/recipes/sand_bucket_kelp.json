@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "sobs:sand_bucket_kelp"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "sobs:sand_bucket"
+      },
+      {
+        "item": "minecraft:kelp"
+      }
+    ],
+	"unlock": [
+      {
+        "item": "minecraft:kelp"
+      }
+    ],
+    "result": {
+      "item": "sobs:sand_bucket_with_kelp"
+    }
+  }
+}

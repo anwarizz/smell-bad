@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.cover_nose": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"rotation": [-116.01533, 61.1950509209, 2.82919],
+					"position": [1.2, -1, 0]
+				},
+				"rightArm": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

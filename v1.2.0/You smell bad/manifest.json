@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Smell Bad vs Robots",
+		"description": "You smell bad Resource Pack",
+		"uuid": "0215635b-bbb0-ab3b-9300-8e6d45ded1fc",
+		"version": [1, 2, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Pakde"],
+		"generated_with": {
+			"blockbench_item_wizard": ["1.2.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Smell or Be Smelled",
+			"type": "resources",
+			"uuid": "8ca55d7d-234a-0bd5-afec-834d8c9da2bb",
+			"version": [1, 2, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "46226245-871d-b618-e76c-e37ae379a709",
+			"version": [1, 2, 0]
+		}
+	]
+}

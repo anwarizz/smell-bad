@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": { 
+			"identifier": "sobs:cover_nose",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": ""
+			},
+			"geometry": {
+				"default": ""
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

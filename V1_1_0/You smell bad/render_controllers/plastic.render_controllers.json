@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.plastic_1": {
+      "arrays": {
+        "textures": {
+          "Array.variant": [
+            "Texture.variant_a",
+            "Texture.variant_b"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [{ "*": "Material.default" }],
+      "textures": ["Array.variant[ query.variant ]"]
+    }
+  }
+}

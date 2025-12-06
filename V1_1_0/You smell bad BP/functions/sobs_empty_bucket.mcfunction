@@ -1,0 +1,1 @@
+replaceitem entity @s slot.weapon.mainhand 1 minecraft:bucket 1 0

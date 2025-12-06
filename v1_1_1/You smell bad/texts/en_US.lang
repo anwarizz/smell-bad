@@ -1,0 +1,52 @@
+item.sobs:deodorant=Deo
+item.sobs:deodorant_2=Deo
+item.sobs:deodorant_3=Deo
+item.sobs:deodorant_4=Deo
+item.sobs:deodorant_5=Deo
+item.sobs:deodorant_6=Deo
+item.sobs:deodorant_7=Deo
+item.sobs:deodorant_8=Deo
+item.sobs:deodorant_9=Deo
+item.sobs:deodorant_10=Deo
+item.sobs:sand_bucket=Sand Bucket
+item.sobs:sand_bucket_with_kelp=Sand Bucket With Kelp
+item.sobs:minecraft_baking_powder=Soda Powder
+
+tile.sobs:powder_maker.name=Powder Filter
+
+tile.sobs:plastic_block.name=Plastic Block
+tile.sobs:plastic_block_5.name=Plastic Block
+tile.sobs:plastic_block_2.name=Plastic Block
+tile.sobs:plastic_block_3.name=Plastic Block
+tile.sobs:plastic_block_4.name=Plastic Block
+
+tile.sobs:test_block.name=Plastic Grinder
+
+
+
+entity.sobs:sand_entity.name=Sand Entity
+item.spawn_egg.entity.sobs:sand_entity.name=Spawn Sand Entity
+
+item.sobs:robot_gun=Soap Gun
+
+item.sobs:plastic_dust=Plastic Dust
+item.sobs:plastic_sheet=Plastic Sheet
+item.sobs:plastic_item=Plastic
+
+
+
+
+
+
+entity.sobs:smelled_1.name=Smelled Monster 1619b
+item.spawn_egg.entity.sobs:smelled_1.name=Spawn 1619b
+
+entity.sobs:smelled_2.name=Smelled Monster B419a
+item.spawn_egg.entity.sobs:smelled_2.name=Spawn B419a
+
+entity.sobs:smelled_3.name=Smelled Monster PL7a
+item.spawn_egg.entity.sobs:smelled_3.name=Spawn PL7a   
+
+entity.sobs:filtering_robot.name=Robot
+item.spawn_egg.entity.sobs:filtering_robot.name=Spawn Robot 
+

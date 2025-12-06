@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sobs:plastic_sheet"
+    },
+
+    "tags": ["crafting_table"],
+    "pattern": ["###", 
+                "###", 
+                "###"],
+    "key": {
+      "#": {
+        "item": "sobs:plastic_dust"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:sand"
+      }
+    ],
+    "result": {
+      "item": "sobs:plastic_sheet",
+      "data": 0
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sand_filter_robot.new": {
+			"loop": true,
+			"bones": {
+				"left_arm": {
+					"rotation": [37.5, 0, 0]
+				},
+				"left2": {
+					"rotation": [62.5, 0, 0]
+				},
+				"right2": {
+					"rotation": [20, 0, 0]
+				}
+			}
+		},
+		"animation.sand_filter_robot.idle": {
+			"loop": true,
+			"animation_length": 2.9167,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": [0, -1, 0],
+						"0.7083": [0, 0, 0],
+						"1.4583": [0, -1, 0],
+						"2.25": [0, 0, 0],
+						"2.7917": [0, -1, 0]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.7083": [0, 0, 5],
+						"1.5": [0, 0, 0],
+						"2.25": [0, 0, 5],
+						"2.875": [0, 0, 0]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.7083": [0, 0, -5],
+						"1.5": [0, 0, 0],
+						"2.25": [0, 0, -5],
+						"2.875": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.sand_filter_robot.hold": {
+			"loop": true,
+			"bones": {
+				"left_arm": {
+					"rotation": [10, 0, 0]
+				},
+				"left2": {
+					"rotation": [57.5, 0, 0]
+				},
+				"right_arm": {
+					"rotation": [80, 0, 0]
+				},
+				"right2": {
+					"rotation": [2.5, 0, 0]
+				}
+			}
+		},
+		"animation.sand_filter_robot.fire": {
+			"loop": true,
+			"animation_length": 0.75,
+			"bones": {
+				"torso": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.2917": [0, 0, -1],
+						"0.4583": [0, 0, 0]
+					}
+				},
+				"head": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.2917": [0, 0, -1],
+						"0.4583": [0, 0, 0]
+					}
+				},
+				"left_arm": {
+					"rotation": [0, 0, 0],
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.2917": [0, 0, -1],
+						"0.4583": [0, 0, 0]
+					}
+				},
+				"left2": {
+					"rotation": [2.5, 0, 0]
+				},
+				"right_arm": {
+					"rotation": {
+						"0.0": [-2.5, 0, 0],
+						"0.25": [-5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, -2],
+						"0.4167": [0, 0, 0]
+					}
+				},
+				"right2": {
+					"rotation": {
+						"0.0": [2.5, 0, 0],
+						"0.25": [25, 0, 0],
+						"0.4167": [5, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.sand_filter_robot.firev2": {
+			"animation_length": 1.0417,
+			"bones": {
+				"right_arm": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 1, 0],
+						"0.5": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

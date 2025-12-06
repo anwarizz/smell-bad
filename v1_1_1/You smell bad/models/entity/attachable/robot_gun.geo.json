@@ -1,0 +1,26 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.robot_gun",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root_item",
+					"pivot": [0, 0, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{"origin": [-1, -1, -3], "size": [2, 7, 2], "pivot": [0, 0, -2], "rotation": [-65, 0, 0], "uv": [0, 13]},
+						{"origin": [-2, 1, 0], "size": [4, 9, 4], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

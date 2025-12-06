@@ -1,0 +1,42 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sobs:deo_gun"
+    },
+
+    "tags": ["crafting_table"],
+    "pattern": [" ab", 
+                "cde", 
+                "f  "],
+    "key": {
+      "a": {
+        "item": "minecraft:enchanting_table"
+      },
+      "b": {
+        "item": "sobs:deodorant"
+      },
+      "c": {
+        "item": "minecraft:iron_ingot"
+      },
+      "d": {
+        "item": "minecraft:iron_ingot"
+      },
+      "e": {
+        "item": "minecraft:iron_ingot"
+      },
+      "f": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:diamond"
+      }
+    ],
+    "result": {
+      "item": "sobs:robot_gun",
+      "data": 0
+    }
+  }
+}

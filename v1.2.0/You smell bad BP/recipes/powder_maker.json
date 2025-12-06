@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sobs:powder_maker"
+    },
+
+    "tags": ["crafting_table"],
+    "pattern": ["#a#", 
+                "#a#", 
+                "#a#"],
+    "key": {
+      "#": {
+        "item": "minecraft:bamboo"
+      },
+      "a" : {
+        "item": "minecraft:stick"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:bamboo"
+      }
+    ],
+    "result": {
+      "item": "sobs:powder_maker",
+      "data": 0
+    }
+  }
+}
